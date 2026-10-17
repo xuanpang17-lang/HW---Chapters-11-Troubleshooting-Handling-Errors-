@@ -1,0 +1,11 @@
+1) What does "try ... catch" do?
+
+Think of "try ... catch" as a safety net for your code. You put the code that might cause an error inside the "try" block, and Java attempts to run it normally. If something goes wrong, instead of crashing the whole program, Java jumps straight to the "catch" block. In the catch block, you can handle the problem smoothly.
+
+2) What does it mean when a program "throws an exception"?
+
+"Throwing an exception" is basically your program waving a big red flag and saying, "Hey, something went wrong and I can't keep going like this!" It happens when the computer hits an unexpected problem at runtime—like trying to divide a number by zero or opening a file that doesn't exist. The program packages the error details into an object and "throws" it up the line to be caught and handled.
+
+3) What is a Thread in Java?
+
+A thread is essentially a single worker inside a program executing tasks one line at a time. A regular Java program starts with one main thread. However, Java allows you to create multiple threads running at the same time. This means your application can multitask—for example, one thread can handle user button clicks while another thread downloads a file in the background without freezing the app.
